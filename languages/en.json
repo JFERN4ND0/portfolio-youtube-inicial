@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "rol": "Full-stack developer",
+    "description": "Basic knowledge of front-end and back-end Java with SpringBoot as well as database management in MySQL and PostgreSQL"
+  },
+  "experience": {
+    "first-job-title": "Back-end developer",
+    "first-job-dates": "Jan 1995 - Jan 2000",
+    "first-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "second-job-title": "Front-end developer",
+    "second-job-dates": "Feb 2000 - Mar 2005",
+    "second-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "last-job-title": "Front-end developer",
+    "last-job-dates": "Feb 2017 - Current",
+    "last-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  }
+}

@@ -23,6 +23,14 @@
           />
           <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
         </div>
+        <div id="flags" class="flags">
+          <div class="flags__item" data-language="es">
+            <img src="/assets/icons/mx.svg" alt="" class="flags__img">
+          </div>
+          <div class="flags__item" data-language="en" class="flags__img">
+            <img src="/assets/icons/gb.svg" alt="">
+          </div>
+        </div>
         <div id="toggle-colors" class="colors">
           <div
             data-color="hsl(214, 84%, 56%)"
@@ -52,7 +60,7 @@
           </div>
           <div class="card__header">
             <h2 class="card__title no-margin">DorianDesings</h2>
-            <p class="card__subtitle">Front end developer</p>
+            <p class="card__subtitle" data-section="profile" data-value="rol">Front end developer</p>
           </div>
           <div class="card__body">
             <div class="card__link">
@@ -63,7 +71,7 @@
               <i class="fas fa-phone-alt icon"></i>
               <a href="tel:9511236589">+52-9514678855</a>
             </div>
-            <p class="card__text">
+            <p class="card__text" data-section="profile" data-value="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
               adipisci non architecto ipsam officia iste rerum perferendis animi
               aliquid beatae obcaecati laudantium quaerat tempore quibusdam
@@ -80,35 +88,35 @@
           <div class="experience">
             <img src="assets/images/logo.png" alt="" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
                 Feb 2017 - Current
               </p>
-              <h3 class="experience__job">Front End Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title">Front End Developer</h3>
+              <p class="experience__description"  data-section="experience" data-value="first-job-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
           <div class="experience">
             <img src="assets/images/logo.png" alt="" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
                 Feb 2017 - Current
               </p>
-              <h3 class="experience__job">Front End Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3 class="experience__job" data-section="experience" data-value="second-job-title">Front End Developer</h3>
+              <p class="experience__description"  data-section="experience" data-value="second-job-description"  data-section="experience" data-value="second-job-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
           <div class="experience">
             <img src="assets/images/logo.png" alt="" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
+              <p class="experience__time" data-section="experience" data-value="last-job-dates">
                 Feb 2017 - Current
               </p>
-              <h3 class="experience__job">Front End Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3 class="experience__job" data-section="experience" data-value="last-job-title">Front End Developer</h3>
+              <p class="experience__description" data-section="experience" data-value="last-job-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
         </article>
-        <article class="card card--hobies">
+        <article class="card card--hobies" >
           <h2 class="card__title">Hobbies</h2>
           <div class="card__image-container">
             <img src="assets/images/hobbie.jpg" alt="Man on a bike">
